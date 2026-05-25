@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm **Shihao Cheng** (程世豪), an M.S. student advised by Prof. [Zhigang Tu](https://scholar.google.com/citations?user=zUUfmtUAAAAJ) at the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing ([LIESMARS](https://liesmars.whu.edu.cn/)), [Wuhan University](https://www.whu.edu.cn/) (expected graduation: June 2027). Before that, I obtained my B.S. degree in Information Engineering from the [Harbin Institute of Technology](https://www.hit.edu.cn/) in 2024, ranking **1st / 29** in my class.
+Hi! I'm **Shihao Cheng** (程世豪), an M.S. student advised by Prof. [Zhigang Tu](http://tuzhigang.cn) at the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing ([LIESMARS](https://liesmars.whu.edu.cn/)), [Wuhan University](https://www.whu.edu.cn/) (expected graduation: June 2027). Before that, I obtained my B.S. degree in Information Engineering from the [Harbin Institute of Technology](https://www.hit.edu.cn/) in 2024, ranking **1st / 29** in my class.
 
 I'm currently a Research Intern at **Tencent Hunyuan**, working on agentic streaming video generation and world modeling via closed-loop feedback.
 
