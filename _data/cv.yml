@@ -57,25 +57,6 @@ cv:
           - Streaming audio-visual generation with semantic-temporal alignment.
           - Hierarchical World State Memory for long-range consistency.
 
-      - company: TeleAI
-        position: Research Intern
-        location: China
-        start_date: 2025-08
-        end_date: 2026-09
-        summary: "Advised by Dr. Shansong Liu. Research on audio-video synchronous and streaming video generation."
-        highlights:
-          - Co-developed a real-time, human-centric video generation system with audio-visual synchronization.
-
-      - company: SenseTime (Research Project)
-        position: Research Collaborator
-        location: China
-        start_date: 2025-03
-        end_date: 2025-06
-        summary: "Advised by Dr. Jiahao Wang. Audio-Visual Semantic and Temporal Alignment in MLLMs."
-        highlights:
-          - Investigated joint audio-visual understanding in MLLMs.
-          - Designed multimodal fusion modules for cross-modal representation learning and temporal synchronization.
-
     Awards:
       - title: National Scholarship
         date: 2023

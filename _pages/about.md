@@ -30,8 +30,14 @@ latest_posts:
 
 Hi! I'm **Shihao Cheng** (程世豪), an M.S. student advised by Prof. [Zhigang Tu](https://scholar.google.com/citations?user=zUUfmtUAAAAJ) at the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing ([LIESMARS](https://liesmars.whu.edu.cn/)), [Wuhan University](https://www.whu.edu.cn/) (expected graduation: June 2027). Before that, I obtained my B.S. degree in Information Engineering from the [Harbin Institute of Technology](https://www.hit.edu.cn/) in 2024, ranking **1st / 29** in my class.
 
-I'm currently a Research Intern at **Tencent Hunyuan**, working on agentic streaming video generation and world modeling via closed-loop feedback. Previously, I interned at **TeleAI** (advised by Dr. Shansong Liu) on streaming audio-video joint generation, and collaborated with **SenseTime** (advised by Dr. Jiahao Wang) on audio-visual semantic and temporal alignment in MLLMs.
+I'm currently a Research Intern at **Tencent Hunyuan**, working on agentic streaming video generation and world modeling via closed-loop feedback.
 
 My research interests lie in **multimodal understanding and generation**, with a particular focus on solving complex **alignment** and **interaction** challenges in generative models — including audio-video joint generation, streaming long-video generation, and world models with hierarchical memory. I have published or submitted works to **CVPR (Highlight)**, **ECCV**, and **T-CSVT**.
 
 I'm actively looking for a **Ph.D. position starting Fall 2027**. Feel free to reach out!
+
+<p align="center">
+  <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fshihao-cheng.github.io%2F">
+    <img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fshihao-cheng.github.io%2F&label=VISITORS&labelColor=%23555555&countColor=%23f47373&style=flat&labelStyle=upper" alt="visitor badge"/>
+  </a>
+</p>
