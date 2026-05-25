@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 **GeoMMBench** was accepted by **CVPR 2026** as a **Highlight**!
+🎉 **GeoMMAgent** was accepted by **CVPR 2026** as a **Highlight**!
