@@ -719,3 +719,72 @@ html[data-theme='dark'] .exp-row .exp-meta {
     overflow-x: visible;
   }
 }
+
+// =============================================================
+// Hero — second-pass shrink: tighter profile + perfectly aligned visitors button
+// =============================================================
+@media (min-width: 768px) {
+  .profile {
+    width: 20% !important;
+    max-width: 200px;
+
+    .more-info {
+      .hero-card {
+        padding: 0.45rem 0.6rem;
+        margin-top: 0.45rem;
+
+        .hero-card-label { font-size: 0.55rem; letter-spacing: 0.1em; margin-bottom: 0.1rem; }
+        .hero-card-title { font-size: 0.74rem; line-height: 1.2; margin-bottom: 0.12rem; }
+        .hero-card-body  { font-size: 0.64rem; line-height: 1.32; }
+      }
+    }
+  }
+}
+
+// Force every action button (including VISITORS) to share the same height
+.hero-actions .hero-btn {
+  height: 28px;
+  padding: 0 0.7rem;
+  font-size: 0.7rem;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+
+// VISITORS — same height, both halves centered
+.hero-btn-visitors {
+  padding: 0 !important;
+  height: 28px;
+  display: inline-flex;
+  align-items: stretch;
+  overflow: hidden;
+  background: #fff !important;
+  border: 1px solid #d9588a !important;
+  color: #d9588a !important;
+
+  .hero-btn-visitors-label {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0.55rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.08em;
+    height: 100%;
+    background: #d9588a;
+    color: #fff;
+    font-family: monospace;
+    font-weight: 700;
+  }
+
+  img {
+    height: 100%;
+    margin: 0 0.6rem 0 0.35rem;
+    align-self: center;
+    display: block;
+    object-fit: contain;
+  }
+
+  &:hover {
+    background: #fff !important;
+    color: #d9588a !important;
+  }
+}
