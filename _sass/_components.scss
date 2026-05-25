@@ -304,3 +304,92 @@ ul.task-list input[type="checkbox"] {
     }
   }
 }
+
+// Selected Publications — pink-pill venue badge under thumbnail, highlighted self-author, pill link buttons
+.publications {
+  ol.bibliography {
+    list-style: none;
+    padding-left: 0;
+
+    > li {
+      padding: 1.2rem 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
+  // Left column: thumbnail + venue badge stacked vertically
+  .col.col-sm-2.abbr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    text-align: center;
+
+    figure {
+      margin: 0;
+      width: 100%;
+      order: 1;
+    }
+
+    abbr.badge {
+      order: 2;
+      width: auto !important;
+      display: inline-block;
+      background-color: #f8c8d5 !important;
+      color: #b03a64 !important;
+      padding: 0.3em 0.85em;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      box-shadow: none;
+
+      a,
+      div {
+        color: #b03a64 !important;
+        text-decoration: none;
+      }
+    }
+  }
+
+  // Title slightly larger and tighter
+  .title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 0.35rem;
+  }
+
+  // Highlight self-author (al-folio wraps the matched author in <em>)
+  .author em {
+    color: #d9588a;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  // Link buttons → pill outline style
+  .links a.btn {
+    border: 1px solid var(--global-divider-color, #d0d0d0);
+    border-radius: 999px;
+    padding: 0.18rem 0.85rem;
+    margin: 0.2rem 0.25rem 0.2rem 0;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: transparent !important;
+    color: var(--global-text-color, #333) !important;
+    transition: background 0.18s ease;
+
+    &:hover {
+      background: var(--global-hover-color, rgba(217, 88, 138, 0.08)) !important;
+      border-color: #d9588a;
+      color: #d9588a !important;
+    }
+  }
+}
