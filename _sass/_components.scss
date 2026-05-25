@@ -259,3 +259,48 @@ ul.task-list input[type="checkbox"] {
 .d2h-diff-table {
   position: relative;
 }
+
+// News — pink pill date + highlighted paper names
+.news {
+  .news-date {
+    display: inline-block;
+    padding: 0.18em 0.7em;
+    border-radius: 999px;
+    background-color: #f8c8d5;
+    color: #b03a64;
+    font-family: monospace;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+
+  td.news-content {
+    line-height: 1.7;
+    padding-left: 0.6rem;
+
+    em,
+    strong {
+      color: #d9588a;
+      font-style: normal;
+      font-weight: 700;
+    }
+  }
+}
+
+// Smaller, tighter contact lines under the profile picture
+.profile {
+  .more-info {
+    font-size: 0.78rem;
+    line-height: 1.35;
+
+    p {
+      display: block;
+      margin: 0;
+    }
+
+    p > b {
+      font-size: 0.85rem;
+    }
+  }
+}

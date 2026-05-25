@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📄 Our paper *OwlSight* has been published in **IEEE T-CSVT** (IF 11.1).
+🎉 **OwlSight** was accepted by **IEEE T-CSVT** (IF 11.1).

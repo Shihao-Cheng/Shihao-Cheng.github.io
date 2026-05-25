@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🌟 Our paper *GeoMMBench and GeoMMAgent* has been accepted to **CVPR 2026 as a Highlight**!
+🎉 **GeoMMBench** was accepted by **CVPR 2026** as a **Highlight**!
