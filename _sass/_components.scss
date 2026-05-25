@@ -640,3 +640,82 @@ html[data-theme='dark'] .exp-row .exp-meta {
     }
   }
 }
+
+// =============================================================
+// Hero overrides — tighter profile column + smaller action buttons (single row)
+// =============================================================
+@media (min-width: 768px) {
+  .profile {
+    width: 24% !important; // was 30% — make the avatar/card column narrower
+
+    .more-info {
+      .hero-card {
+        padding: 0.55rem 0.7rem;
+        margin-top: 0.55rem;
+
+        .hero-card-label {
+          font-size: 0.62rem;
+          letter-spacing: 0.12em;
+          margin-bottom: 0.15rem;
+        }
+
+        .hero-card-title {
+          font-size: 0.82rem;
+          line-height: 1.25;
+          margin-bottom: 0.15rem;
+        }
+
+        .hero-card-body {
+          font-size: 0.7rem;
+          line-height: 1.35;
+        }
+      }
+    }
+  }
+}
+
+// Action button row — small enough so 6 buttons fit one line
+.hero-actions {
+  flex-wrap: nowrap;
+  gap: 0.4rem;
+  overflow-x: auto;
+  padding-bottom: 0.2rem;
+  -webkit-overflow-scrolling: touch;
+
+  // Hide scrollbar (still scrollable on small screens)
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.hero-btn {
+  padding: 0.32rem 0.7rem;
+  font-size: 0.72rem;
+  flex: 0 0 auto;
+  white-space: nowrap;
+
+  i {
+    font-size: 0.85em;
+  }
+}
+
+.hero-btn-visitors {
+  .hero-btn-visitors-label {
+    padding: 0.32rem 0.55rem;
+    font-size: 0.62rem;
+  }
+
+  img {
+    height: 1.2rem;
+    margin: 0 0.55rem 0 0.3rem;
+  }
+}
+
+// Allow wrap on narrow phones
+@media (max-width: 575px) {
+  .hero-actions {
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
+}

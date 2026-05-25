@@ -21,6 +21,7 @@ profile:
     </div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+about_extra: true # render _includes/about_extra.liquid (experience / education / awards)
 social: false # custom action row below replaces default social icons
 
 announcements:
@@ -54,7 +55,7 @@ I am actively looking for a **Ph.D. position starting Fall 2027**. Feel free to 
     <i class="fa-solid fa-file-lines"></i> CV
   </a>
   <a class="hero-btn" href="https://scholar.google.com/citations?user=1DqpYF0AAAAJ" target="_blank" rel="noopener">
-    <i class="ai ai-google-scholar"></i> Google Scholar
+    <i class="ai ai-google-scholar"></i> Scholar
   </a>
   <a class="hero-btn" href="https://github.com/Shihao-Cheng" target="_blank" rel="noopener">
     <i class="fa-brands fa-github"></i> GitHub
@@ -67,51 +68,3 @@ I am actively looking for a **Ph.D. position starting Fall 2027**. Feel free to 
     <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fshihao-cheng.github.io%2F&countColor=%23ffffff&labelColor=%23d9588a&label=&style=flat" alt="visitor count" />
   </a>
 </div>
-
-## Experience
-
-<div class="exp-row">
-  <div class="exp-logo">
-    <img src="/assets/img/logos/hunyuan.png" alt="Tencent Hunyuan logo">
-  </div>
-  <div class="exp-body">
-    <div class="exp-org"><a href="https://hunyuan.tencent.com/">Tencent Hunyuan</a></div>
-    <div class="exp-meta"><em>2026.09 – Present, Beijing</em></div>
-    <div class="exp-role"><strong>Research Intern</strong> · agentic streaming video generation and world modeling.</div>
-    <div class="exp-detail">Streaming audio-visual generation with semantic-temporal alignment via Hierarchical World State Memory.</div>
-  </div>
-</div>
-
-## Education
-
-<div class="exp-row">
-  <div class="exp-logo">
-    <img src="/assets/img/logos/whu.png" alt="Wuhan University logo">
-  </div>
-  <div class="exp-body">
-    <div class="exp-org"><a href="https://www.whu.edu.cn/">Wuhan University</a></div>
-    <div class="exp-meta"><em>2024.09 – 2027.06 (expected), Wuhan</em></div>
-    <div class="exp-role"><strong>M.S.</strong> in Communication and Information Systems, <a href="https://liesmars.whu.edu.cn/">LIESMARS</a>.</div>
-    <div class="exp-detail">Advisor: Prof. <a href="http://tuzhigang.cn">Zhigang Tu</a>.</div>
-  </div>
-</div>
-
-<div class="exp-row">
-  <div class="exp-logo">
-    <img src="/assets/img/logos/hit.png" alt="Harbin Institute of Technology logo">
-  </div>
-  <div class="exp-body">
-    <div class="exp-org"><a href="https://www.hit.edu.cn/">Harbin Institute of Technology</a></div>
-    <div class="exp-meta"><em>2020.09 – 2024.06, Harbin</em></div>
-    <div class="exp-role"><strong>B.S.</strong> in Information Engineering.</div>
-    <div class="exp-detail">Avg. 92.3 / 100, ranked <strong>1 / 29</strong> in class.</div>
-  </div>
-</div>
-
-## Awards &amp; Honors
-
-<ul class="awards-list">
-  <li><span class="awards-year">2024</span> Provincial Outstanding Graduate, Heilongjiang Province (<strong>Top 1%</strong>).</li>
-  <li><span class="awards-year">2023</span> National Scholarship, Ministry of Education of China (¥8,000, <strong>Top 1%</strong>).</li>
-  <li><span class="awards-year">2020 – 2024</span> Multiple academic and merit scholarships at HIT.</li>
-</ul>

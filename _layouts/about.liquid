@@ -64,6 +64,11 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Extra about-page sections (experience / education / awards) -->
+    {% if page.about_extra %}
+      {% include about_extra.liquid %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
