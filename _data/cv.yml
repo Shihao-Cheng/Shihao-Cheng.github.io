@@ -1,0 +1,140 @@
+cv:
+  name: Shihao Cheng
+  label: M.S. Student, Wuhan University
+  email: shihaocheng@whu.edu.cn
+  phone: "+86 19819662573"
+  url: https://github.com/Shihao-Cheng
+  image: ""
+  summary: M.S. student at LIESMARS, Wuhan University. Research interests focus on multimodal understanding and generation, with works on audio-video joint generation, streaming video world models, and dark-video understanding. Published or submitted at CVPR (Highlight), ECCV, and T-CSVT.
+
+  social_networks:
+    - network: GitHub
+      username: Shihao-Cheng
+
+  address:
+    street: Faculty of Information Science, Wuhan University
+    city: Wuhan
+    region: Hubei
+    postalCode: "430072"
+    countryCode: CN
+
+  sections:
+    Education:
+      - institution: Wuhan University
+        location: Wuhan, Hubei, China
+        url: https://www.whu.edu.cn/
+        area: Communication and Information Systems
+        studyType: M.S. Student
+        start_date: 2024-09
+        end_date: 2027-06
+        score: ""
+        courses: ""
+        highlights:
+          - Advised by Prof. Zhigang Tu at LIESMARS.
+          - Research focus on multimodal understanding and generation.
+
+      - institution: Harbin Institute of Technology
+        location: Harbin, Heilongjiang, China
+        url: https://www.hit.edu.cn/
+        area: Information Engineering
+        studyType: B.S.
+        start_date: 2020-09
+        end_date: 2024-06
+        score: "92.3 / 100"
+        highlights:
+          - "Class Rank: 1 / 29."
+          - "National Scholarship 2023 (¥8,000 RMB, Top 1%)."
+          - "Provincial Outstanding Graduate, 2024 (Top 1%)."
+
+    Experience:
+      - company: Tencent Hunyuan
+        position: Research Intern
+        location: Remote / Beijing, China
+        start_date: 2026-09
+        end_date: Present
+        summary: "Research on agentic video world modeling that synergizes reasoning and generation."
+        highlights:
+          - Streaming audio-visual generation with semantic-temporal alignment.
+          - Hierarchical World State Memory for long-range consistency.
+
+      - company: TeleAI
+        position: Research Intern
+        location: China
+        start_date: 2025-08
+        end_date: 2026-09
+        summary: "Advised by Dr. Shansong Liu. Research on audio-video synchronous and streaming video generation."
+        highlights:
+          - Co-developed a real-time, human-centric video generation system with audio-visual synchronization.
+
+      - company: SenseTime (Research Project)
+        position: Research Collaborator
+        location: China
+        start_date: 2025-03
+        end_date: 2025-06
+        summary: "Advised by Dr. Jiahao Wang. Audio-Visual Semantic and Temporal Alignment in MLLMs."
+        highlights:
+          - Investigated joint audio-visual understanding in MLLMs.
+          - Designed multimodal fusion modules for cross-modal representation learning and temporal synchronization.
+
+    Awards:
+      - title: National Scholarship
+        date: 2023
+        awarder: Ministry of Education of the People's Republic of China
+        summary: "¥8,000 RMB. Top 1%."
+
+      - title: Provincial Outstanding Graduate
+        date: 2024
+        awarder: Heilongjiang Province
+        summary: "Top 1%."
+
+    Publications:
+      - title: "Unison: Harmonizing Motion, Speech, and Sound for Human-Centric Audio-Video Generation"
+        authors:
+          - Shihao Cheng (First Author)
+        publisher: ECCV 2026 (Under Review)
+        releaseDate: 2026
+        summary: "Resolved speech-SFX interference and motion-audio desynchronization in audio-video generation."
+
+      - title: "InteractiveAvatar: Real-Time Streaming Video Generation for Consistent and Intent-Aware Avatars"
+        authors:
+          - Shihao Cheng
+        publisher: ECCV 2026 (Under Review)
+        releaseDate: 2026
+        summary: "Resolved understanding interaction and long-term semantic drift in infinite-length video generation."
+
+      - title: "GeoMMBench and GeoMMAgent: Toward Expert-Level Multimodal Intelligence in Geoscience and Remote Sensing"
+        authors:
+          - Shihao Cheng (Co-First Author)
+        publisher: CVPR 2026 (Highlight)
+        releaseDate: 2026
+        summary: "Built the first expert-level multimodal benchmark and a multi-agent framework for interdisciplinary, multi-sensor remote-sensing scenarios."
+
+      - title: "OwlSight: A Robust Illumination Adaptation Framework for Dark Video Human Action Recognition"
+        authors:
+          - Shihao Cheng (First Author)
+        publisher: IEEE T-CSVT, 2025 (IF 11.1)
+        releaseDate: 2025
+        summary: "Resolved inefficient brightness utilization in joint low-light enhancement and action recognition."
+
+    Skills:
+      - name: Research
+        level: Advanced
+        icon: fa-solid fa-flask
+        keywords: "Multimodal Generation, Audio-Video Generation, Streaming Video, World Models, MLLMs, Video Understanding"
+
+      - name: Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, PyTorch, CUDA, Deep Learning Frameworks"
+
+    Languages:
+      - name: Chinese
+        summary: "Native speaker"
+
+      - name: English
+        summary: "Fluent (research reading & writing)"
+
+    Interests:
+      - name: Research Topics
+        icon: fa-solid fa-tag
+        keywords: "Audio-Video Joint Generation, Streaming Long-Video Generation, World Models, Multimodal Alignment, Video World Modeling"
