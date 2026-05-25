@@ -2,7 +2,7 @@
 layout: page
 title: Tencent Hunyuan — Agentic Video World Modeling
 description: Streaming audio-visual generation with semantic-temporal alignment via Hierarchical World State Memory.
-img: assets/img/5.jpg
+img: assets/img/publication_preview/hunyuan.png
 importance: 5
 category: system
 ---
