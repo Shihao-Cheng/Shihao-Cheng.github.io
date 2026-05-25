@@ -1,21 +1,27 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
-subtitle: M.S. Student at <a href='https://liesmars.whu.edu.cn/'>LIESMARS, Wuhan University</a>. Research Intern at <a href='https://hunyuan.tencent.com/'>Tencent Hunyuan</a>. <br/>Multimodal generation · Audio-Video joint generation · Streaming video world models.
+subtitle: <span class="hero-tagline">MULTIMODAL · AUDIO-VIDEO GENERATION · STREAMING WORLD MODELS</span>
 
 profile:
-  align: right
+  align: left
   image: prof_pic.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p><b>Shihao Cheng (程世豪)</b></p>
-    <p>Faculty of Information Science</p>
-    <p>Wuhan University, Wuhan 430072</p>
-    <p>📧 shihaocheng [at] whu.edu.cn</p>
+    <div class="hero-card">
+      <div class="hero-card-label">NOW</div>
+      <div class="hero-card-title">Research Intern @ Tencent Hunyuan</div>
+      <div class="hero-card-body">Agentic streaming video generation and world modeling via closed-loop feedback.</div>
+    </div>
+    <div class="hero-card">
+      <div class="hero-card-label">OPEN TO</div>
+      <div class="hero-card-title">Ph.D. Fall 2027</div>
+      <div class="hero-card-body">Multimodal generation, audio-video joint generation, streaming long-video, world models. <a href="mailto:shihaocheng@whu.edu.cn">shihaocheng@whu.edu.cn</a></div>
+    </div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # custom action row below replaces default social icons
 
 announcements:
   enabled: true # includes a list of news items
@@ -28,16 +34,36 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm **Shihao Cheng** (程世豪), an M.S. student advised by Prof. [Zhigang Tu](http://tuzhigang.cn) at the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing ([LIESMARS](https://liesmars.whu.edu.cn/)), [Wuhan University](https://www.whu.edu.cn/) (expected graduation: June 2027). Before that, I obtained my B.S. degree in Information Engineering from the [Harbin Institute of Technology](https://www.hit.edu.cn/) in 2024, ranking **1st / 29** in my class.
+# <span class="hero-name">Shihao</span> CHENG <span class="hero-zh">(程世豪)</span>
 
-I'm currently a Research Intern at **Tencent Hunyuan**, working on agentic streaming video generation and world modeling via closed-loop feedback.
+<p class="hero-affiliation">M.S. student in Communication and Information Systems, Wuhan University</p>
 
-My research interests lie in **multimodal understanding and generation**, with a particular focus on solving complex **alignment** and **interaction** challenges in generative models — including audio-video joint generation, streaming long-video generation, and world models with hierarchical memory. I have published or submitted works to **CVPR (Highlight)**, **ECCV**, and **T-CSVT**.
+Hi 👋. I am **Shihao Cheng** (程世豪), an M.S. student advised by Prof. [Zhigang Tu](http://tuzhigang.cn) at the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing ([LIESMARS](https://liesmars.whu.edu.cn/)), [Wuhan University](https://www.whu.edu.cn/) (expected graduation: June 2027). Before that, I obtained my B.S. degree in Information Engineering from the [Harbin Institute of Technology](https://www.hit.edu.cn/) in 2024, ranking **1st / 29** in my class.
 
-I'm actively looking for a **Ph.D. position starting Fall 2027**. Feel free to reach out!
+I am currently a Research Intern at **[Tencent Hunyuan](https://hunyuan.tencent.com/)**, working on agentic streaming video generation and world modeling via closed-loop feedback.
 
-<p align="center">
-  <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fshihao-cheng.github.io%2F">
-    <img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fshihao-cheng.github.io%2F&label=VISITORS&labelColor=%23555555&countColor=%23f47373&style=flat&labelStyle=upper" alt="visitor badge"/>
+My research lies in **multimodal understanding and generation**, with a focus on the **alignment** and **interaction** challenges in generative models — audio-video joint generation, streaming long-video generation, and world models with hierarchical memory. I have published or submitted works to **CVPR (Highlight)**, **ECCV**, and **T-CSVT**.
+
+I am actively looking for a **Ph.D. position starting Fall 2027**. Feel free to reach out!
+
+<div class="hero-actions">
+  <a class="hero-btn hero-btn-primary" href="/publications/">
+    <i class="fa-solid fa-book-open"></i> Publications
   </a>
-</p>
+  <a class="hero-btn" href="/assets/pdf/Shihao_Cheng_CV.pdf" target="_blank" rel="noopener">
+    <i class="fa-solid fa-file-lines"></i> CV
+  </a>
+  <a class="hero-btn" href="https://scholar.google.com/citations?user=1DqpYF0AAAAJ" target="_blank" rel="noopener">
+    <i class="ai ai-google-scholar"></i> Google Scholar
+  </a>
+  <a class="hero-btn" href="https://github.com/Shihao-Cheng" target="_blank" rel="noopener">
+    <i class="fa-brands fa-github"></i> GitHub
+  </a>
+  <a class="hero-btn" href="mailto:shihaocheng@whu.edu.cn">
+    <i class="fa-solid fa-envelope"></i> Email
+  </a>
+  <a class="hero-btn hero-btn-visitors" href="https://visitorbadge.io/status?path=https%3A%2F%2Fshihao-cheng.github.io%2F" target="_blank" rel="noopener">
+    <span class="hero-btn-visitors-label">VISITORS</span>
+    <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fshihao-cheng.github.io%2F&countColor=%23ffffff&labelColor=%23d9588a&label=&style=flat" alt="visitor count" />
+  </a>
+</div>

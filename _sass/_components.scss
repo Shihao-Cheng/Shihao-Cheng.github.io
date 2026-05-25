@@ -393,3 +393,153 @@ ul.task-list input[type="checkbox"] {
     }
   }
 }
+
+// =============================================================
+// Hero / About header — pink-accent landing block
+// =============================================================
+.post .post-header .desc .hero-tagline {
+  display: block;
+  font-family: monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 0.4rem;
+}
+
+.hero-name {
+  color: #d9588a;
+  font-weight: 800;
+}
+
+.hero-zh {
+  color: #d9588a;
+  font-weight: 600;
+  font-size: 0.65em;
+  margin-left: 0.2em;
+  vertical-align: 1px;
+}
+
+.hero-affiliation {
+  font-size: 0.95rem;
+  opacity: 0.75;
+  margin-top: -0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+// Cards stacked under the avatar (NOW / OPEN TO blocks)
+.profile .more-info {
+  // override the earlier "smaller contact lines" rules — we now stack cards
+  font-size: 1rem;
+  line-height: 1.5;
+
+  .hero-card {
+    background: rgba(217, 88, 138, 0.06);
+    border: 1px solid rgba(217, 88, 138, 0.18);
+    border-radius: 12px;
+    padding: 0.7rem 0.9rem;
+    margin-top: 0.8rem;
+    text-align: left;
+
+    .hero-card-label {
+      font-family: monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      color: #d9588a;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+
+    .hero-card-title {
+      font-size: 0.92rem;
+      font-weight: 700;
+      margin-bottom: 0.2rem;
+      line-height: 1.3;
+    }
+
+    .hero-card-body {
+      font-size: 0.78rem;
+      line-height: 1.45;
+      opacity: 0.8;
+
+      a {
+        color: #d9588a;
+        word-break: break-all;
+      }
+    }
+  }
+}
+
+// Hero action button row
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 1.5rem 0 0.5rem;
+  align-items: center;
+}
+
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--global-divider-color, #d0d0d0);
+  background: transparent;
+  color: var(--global-text-color, #333);
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: #d9588a;
+    color: #d9588a;
+    background: rgba(217, 88, 138, 0.06);
+  }
+
+  i {
+    font-size: 0.95em;
+  }
+}
+
+.hero-btn-primary {
+  background: #d9588a !important;
+  border-color: #d9588a !important;
+  color: #fff !important;
+
+  &:hover {
+    background: #c84279 !important;
+    border-color: #c84279 !important;
+    color: #fff !important;
+  }
+}
+
+.hero-btn-visitors {
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #d9588a;
+  background: #fff;
+
+  .hero-btn-visitors-label {
+    background: #d9588a;
+    color: #fff;
+    padding: 0.45rem 0.8rem;
+    font-family: monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+  }
+
+  img {
+    height: 1.55rem;
+    margin: 0 0.7rem 0 0.4rem;
+    align-self: center;
+  }
+
+  &:hover {
+    background: #fff;
+    color: #d9588a;
+  }
+}

@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Selected research projects on multimodal generation, audio-video synthesis, and streaming video world models.
-nav: true
+nav: false
 nav_order: 3
 display_categories: [research, system]
 horizontal: false

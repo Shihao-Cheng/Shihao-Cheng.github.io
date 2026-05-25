@@ -2,7 +2,7 @@
 layout: cv
 permalink: /cv/
 title: cv
-nav: true
+nav: false
 nav_order: 5
 cv_pdf: /assets/pdf/Shihao_Cheng_CV.pdf # the CV PDF download button at the top of the page
 cv_format: rendercv # options: rendercv, jsonresume
