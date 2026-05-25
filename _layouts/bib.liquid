@@ -148,6 +148,11 @@
       {% endif %}
     </div>
 
+    <!-- Authorship label (visible) -->
+    {% if entry.annotation %}
+      <div class="author-role">{{ entry.annotation }}</div>
+    {% endif %}
+
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
