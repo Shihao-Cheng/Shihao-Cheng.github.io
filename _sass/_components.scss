@@ -930,3 +930,61 @@ $kebii-text:       #222;
     strong { color: $kebii-text !important; font-weight: 700; }
   }
 }
+
+// =============================================================
+// WeChat hover-popover
+// =============================================================
+.hero-btn-wechat {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+
+  .hero-btn-wechat-pop {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%) scale(0.92);
+    width: 180px;
+    padding: 8px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.18s ease, transform 0.18s ease;
+    z-index: 50;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 4px;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 6px solid transparent;
+      border-top-color: #fff;
+      filter: drop-shadow(0 1px 0 #e3e3e3);
+    }
+  }
+
+  &:hover,
+  &:focus,
+  &:focus-within {
+    color: #f09228 !important;
+    border-color: #f09228 !important;
+    background: rgba(240, 146, 40, 0.08) !important;
+
+    .hero-btn-wechat-pop {
+      opacity: 1;
+      transform: translateX(-50%) scale(1);
+      pointer-events: auto;
+    }
+  }
+}
