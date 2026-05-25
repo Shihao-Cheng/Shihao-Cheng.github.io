@@ -1010,3 +1010,22 @@ $kebii-text:       #222;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
+
+// =============================================================
+// Force experience-row logos to a strict, identical visual box
+// =============================================================
+.exp-row .exp-logo {
+  flex: 0 0 64px !important;
+  width: 64px !important;
+  height: 64px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    border-radius: 6px;
+  }
+}
