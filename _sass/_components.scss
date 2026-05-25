@@ -788,3 +788,145 @@ html[data-theme='dark'] .exp-row .exp-meta {
     color: #d9588a !important;
   }
 }
+
+// =============================================================
+// Kebii-style theme override — replace pink accents with blue/orange
+// (https://kebii.github.io/, link #1772d0, hover #f09228, highlight #ffffd0)
+// =============================================================
+$kebii-link:       #1772d0;
+$kebii-hover:      #f09228;
+$kebii-highlight:  #ffffd0;
+$kebii-text:       #222;
+
+// Global links
+.post,
+.publications,
+.news,
+.exp-row,
+.awards-list {
+  a {
+    color: $kebii-link;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    color: $kebii-hover;
+    text-decoration: none;
+  }
+}
+
+// Hero name
+.hero-name { color: $kebii-link !important; }
+.hero-zh   { color: $kebii-link !important; }
+
+// Hero tagline (top monospace line)
+.post .post-header .desc .hero-tagline {
+  color: $kebii-link;
+  opacity: 0.85;
+}
+
+// NOW / OPEN cards: blue-tinted
+.profile .more-info .hero-card {
+  background: rgba(23, 114, 208, 0.05) !important;
+  border: 1px solid rgba(23, 114, 208, 0.18) !important;
+
+  .hero-card-label { color: $kebii-link !important; }
+  .hero-card-body a { color: $kebii-link !important; }
+}
+
+// Action buttons — primary (Publications) blue
+.hero-btn:hover {
+  border-color: $kebii-hover !important;
+  color: $kebii-hover !important;
+  background: rgba(240, 146, 40, 0.08) !important;
+}
+
+.hero-btn-primary {
+  background: $kebii-link !important;
+  border-color: $kebii-link !important;
+
+  &:hover {
+    background: $kebii-hover !important;
+    border-color: $kebii-hover !important;
+    color: #fff !important;
+  }
+}
+
+// VISITORS pill — blue label, white count, orange hover
+.hero-btn-visitors {
+  border-color: $kebii-link !important;
+  color: $kebii-link !important;
+
+  .hero-btn-visitors-label {
+    background: $kebii-link !important;
+  }
+
+  &:hover {
+    border-color: $kebii-hover !important;
+    color: $kebii-hover !important;
+    .hero-btn-visitors-label { background: $kebii-hover !important; }
+  }
+}
+
+// News pills + emphasized words
+.news .news-date {
+  background-color: rgba(23, 114, 208, 0.12) !important;
+  color: $kebii-link !important;
+}
+
+.news td.news-content em,
+.news td.news-content strong {
+  color: $kebii-link !important;
+  background-color: $kebii-highlight;
+  padding: 0 0.15em;
+  border-radius: 2px;
+}
+
+// Publications — venue badge, self-author, link buttons
+.publications {
+  .col.col-sm-2.abbr {
+    abbr.badge {
+      background-color: rgba(23, 114, 208, 0.12) !important;
+      color: $kebii-link !important;
+
+      a, div { color: $kebii-link !important; }
+    }
+  }
+
+  .author em {
+    color: $kebii-link !important;
+    font-weight: 700;
+  }
+
+  .links a.btn {
+    color: $kebii-text !important;
+
+    &:hover {
+      border-color: $kebii-hover !important;
+      color: $kebii-hover !important;
+      background: rgba(240, 146, 40, 0.08) !important;
+    }
+  }
+}
+
+// Experience / Education
+.exp-row {
+  .exp-org a {
+    color: $kebii-text;
+
+    &:hover { color: $kebii-hover !important; }
+  }
+
+  .exp-role strong { color: $kebii-link !important; }
+}
+
+// Awards
+.awards-list {
+  li {
+    border-bottom: 1px dashed rgba(23, 114, 208, 0.18) !important;
+
+    .awards-year { color: $kebii-link !important; }
+    strong { color: $kebii-text !important; font-weight: 700; }
+  }
+}
