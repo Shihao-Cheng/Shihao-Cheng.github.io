@@ -2,7 +2,7 @@
 layout: page
 title: GeoMMBench / GeoMMAgent
 description: Toward Expert-Level Multimodal Intelligence in Geoscience and Remote Sensing (CVPR 2026 Highlight)
-img: assets/img/3.jpg
+img: assets/img/publication_preview/geommbench.png
 importance: 3
 category: research
 ---

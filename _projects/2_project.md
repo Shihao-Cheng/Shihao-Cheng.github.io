@@ -2,7 +2,7 @@
 layout: page
 title: InteractiveAvatar
 description: Real-Time Streaming Video Generation for Consistent and Intent-Aware Avatars (ECCV 2026, Under Review)
-img: assets/img/2.jpg
+img: assets/img/publication_preview/interactive_avatar.png
 importance: 2
 category: research
 ---

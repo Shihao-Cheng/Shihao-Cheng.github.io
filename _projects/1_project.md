@@ -2,7 +2,7 @@
 layout: page
 title: Unison
 description: Harmonizing Motion, Speech, and Sound for Human-Centric Audio-Video Generation (ECCV 2026, Under Review)
-img: assets/img/1.jpg
+img: assets/img/publication_preview/unison.png
 importance: 1
 category: research
 ---

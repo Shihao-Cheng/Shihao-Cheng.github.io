@@ -2,7 +2,7 @@
 layout: page
 title: OwlSight
 description: Robust Illumination Adaptation for Dark Video Human Action Recognition (IEEE T-CSVT 2025)
-img: assets/img/4.jpg
+img: assets/img/publication_preview/owlsight.png
 importance: 4
 category: research
 ---
