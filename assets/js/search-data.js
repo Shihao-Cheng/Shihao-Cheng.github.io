@@ -389,9 +389,6 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-owlsight-has-been-published-in-ieee-t-csvt-if-11-1",
           title: '📄 Our paper OwlSight has been published in IEEE T-CSVT (IF 11.1).',
           description: "",
-          section: "News",},{id: "news-joined-teleai-as-a-research-intern-advised-by-dr-shansong-liu-working-on-audio-video-synchronous-and-streaming-video-generation",
-          title: '🚀 Joined TeleAI as a Research Intern (advised by Dr. Shansong Liu), working...',
-          description: "",
           section: "News",},{id: "news-our-paper-geommbench-and-geommagent-has-been-accepted-to-cvpr-2026-as-a-highlight",
           title: '🌟 Our paper GeoMMBench and GeoMMAgent has been accepted to CVPR 2026 as...',
           description: "",
@@ -423,16 +420,6 @@ ninja.data = [{
           description: "Streaming audio-visual generation with semantic-temporal alignment via Hierarchical World State Memory.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-teleai-real-time-audio-video-generation-system",
-          title: 'TeleAI — Real-Time Audio-Video Generation System',
-          description: "Real-time, human-centric video generation system featuring audio-visual synchronization.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-sensetime-collaboration-audio-visual-mllms",
-          title: 'SenseTime Collaboration — Audio-Visual MLLMs',
-          description: "Audio-Visual Semantic and Temporal Alignment in Multimodal Large Language Models.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
