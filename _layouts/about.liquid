@@ -80,21 +80,28 @@ layout: default
 
 <script>
   // Align the bottom of the hero action row with the bottom of the profile column.
+  // Two-way: if profile is taller, push actions down; if actions is taller, push profile down.
   (function alignHeroActionsToProfile() {
     function run() {
-      if (window.innerWidth < 768) return; // mobile: stack naturally
+      if (window.innerWidth < 768) return;
       var profile = document.querySelector('.post > article > .profile');
       var clearfix = document.querySelector('.post > article > .clearfix');
       var actions = clearfix && clearfix.querySelector('.hero-actions');
       if (!profile || !actions) return;
-      // Reset previous adjustment so re-runs measure fresh.
+      // Reset previous adjustments
       actions.style.marginTop = '';
+      profile.style.marginBottom = '';
       var profileBottom = profile.getBoundingClientRect().bottom;
       var actionsBottom = actions.getBoundingClientRect().bottom;
       var diff = profileBottom - actionsBottom;
-      if (diff > 4) {
-        // Push the action row down so its bottom matches the profile column bottom.
-        actions.style.marginTop = (parseFloat(getComputedStyle(actions).marginTop) || 0) + diff + 'px';
+      if (diff > 2) {
+        // Profile is taller: push actions down
+        var current = parseFloat(getComputedStyle(actions).marginTop) || 0;
+        actions.style.marginTop = (current + diff) + 'px';
+      } else if (diff < -2) {
+        // Actions row is taller: push profile down
+        var currentMb = parseFloat(getComputedStyle(profile).marginBottom) || 0;
+        profile.style.marginBottom = (currentMb + (-diff)) + 'px';
       }
     }
     if (document.readyState === 'loading') {
