@@ -41,7 +41,9 @@ latest_posts:
 
 Hi! I am Shihao Cheng (程世豪), an M.S. student at [Wuhan University](https://www.whu.edu.cn/) advised by Prof. [Zhigang Tu](http://tuzhigang.cn) (expected graduation: June 2027). I received my B.S. degree in Information Engineering from the [Harbin Institute of Technology](https://www.hit.edu.cn/) in 2024, graduating ranked 1st out of 29 in my class.
 
-Currently, I am a Research Intern at [Tencent Hunyuan](https://hunyuan.tencent.com/), focusing on **streaming joint audio-video generation**. My research focuses on multimodal generation and agentic systems, with a long-term interest in building real-time multimodal generative agents that produce coherent, controllable, and interactive content in response to evolving user intent. My work has been published in or submitted to top-tier venues including **CVPR (Highlight)**, **ECCV**, and **T-CSVT**.
+Currently, I am a Research Intern at [Tencent Hunyuan](https://hunyuan.tencent.com/), focusing on **streaming joint audio-video generation**. My research focuses on multimodal generation and agentic systems, with a long-term interest in building real-time multimodal generative agents that produce coherent, controllable, and interactive content in response to evolving user intent.
+
+My work has been published in or submitted to top-tier venues including **CVPR (Highlight)**, **ECCV**, and **T-CSVT**.
 
 I am actively seeking **Ph.D. positions for Fall 2027**. Please feel free to reach out for potential collaborations or opportunities!
 
