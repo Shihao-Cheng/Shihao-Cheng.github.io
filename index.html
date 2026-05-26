@@ -27,21 +27,28 @@
   <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/TCSVT.2025.3632359}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure> </div> </div> </div> </li> </ol> </div> <h2>experience</h2> <div class="exp-row"> <div class="exp-logo"> <img src="/assets/img/logos/hunyuan.png" alt="Tencent Hunyuan logo"> </div> <div class="exp-body"> <div class="exp-org"><a href="https://hunyuan.tencent.com/" rel="external nofollow noopener" target="_blank">Tencent Hunyuan</a></div> <div class="exp-meta"><em>2026.04 – Present, Shenzhen</em></div> <div class="exp-role"> <strong>Research Intern</strong> · streaming joint audio-video generation.</div> <div class="exp-detail">Real-time multimodal generative systems that align speech, sound, and motion under streaming, online conditions.</div> </div> </div> <h2>education</h2> <div class="exp-row"> <div class="exp-logo"> <img src="/assets/img/logos/whu.png" alt="Wuhan University logo"> </div> <div class="exp-body"> <div class="exp-org"><a href="https://www.whu.edu.cn/" rel="external nofollow noopener" target="_blank">Wuhan University</a></div> <div class="exp-meta"><em>2024.09 – 2027.06 (expected), Wuhan</em></div> <div class="exp-role"> <strong>Master Student</strong> · Communication and Information Systems.</div> <div class="exp-detail">Research advisor: Prof. <a href="http://tuzhigang.cn" rel="external nofollow noopener" target="_blank">Zhigang Tu</a>.</div> </div> </div> <div class="exp-row"> <div class="exp-logo"> <img src="/assets/img/logos/hit.png" alt="Harbin Institute of Technology logo"> </div> <div class="exp-body"> <div class="exp-org"><a href="https://www.hit.edu.cn/" rel="external nofollow noopener" target="_blank">Harbin Institute of Technology</a></div> <div class="exp-meta"><em>2020.09 – 2024.06, Harbin</em></div> <div class="exp-role"> <strong>B.S.</strong> in Information Engineering.</div> <div class="exp-detail">Avg. 92.3 / 100, ranked <strong>1 / 29</strong> in class.</div> </div> </div> <h2>awards &amp; honors</h2> <ul class="awards-list"> <li> <span class="awards-year">2024</span>: Provincial Outstanding Graduate (<strong>Top 1%</strong>).</li> <li> <span class="awards-year">2023</span>: National Scholarship (<strong>Highest Honor</strong> for Bachelor students in China, <strong>8,000RMB¥, Top 1%</strong>).</li> </ul> </article> </div> <script>
   // Align the bottom of the hero action row with the bottom of the profile column.
+  // Two-way: if profile is taller, push actions down; if actions is taller, push profile down.
   (function alignHeroActionsToProfile() {
     function run() {
-      if (window.innerWidth < 768) return; // mobile: stack naturally
+      if (window.innerWidth < 768) return;
       var profile = document.querySelector('.post > article > .profile');
       var clearfix = document.querySelector('.post > article > .clearfix');
       var actions = clearfix && clearfix.querySelector('.hero-actions');
       if (!profile || !actions) return;
-      // Reset previous adjustment so re-runs measure fresh.
+      // Reset previous adjustments
       actions.style.marginTop = '';
+      profile.style.marginBottom = '';
       var profileBottom = profile.getBoundingClientRect().bottom;
       var actionsBottom = actions.getBoundingClientRect().bottom;
       var diff = profileBottom - actionsBottom;
-      if (diff > 4) {
-        // Push the action row down so its bottom matches the profile column bottom.
-        actions.style.marginTop = (parseFloat(getComputedStyle(actions).marginTop) || 0) + diff + 'px';
+      if (diff > 2) {
+        // Profile is taller: push actions down
+        var current = parseFloat(getComputedStyle(actions).marginTop) || 0;
+        actions.style.marginTop = (current + diff) + 'px';
+      } else if (diff < -2) {
+        // Actions row is taller: push profile down
+        var currentMb = parseFloat(getComputedStyle(profile).marginBottom) || 0;
+        profile.style.marginBottom = (currentMb + (-diff)) + 'px';
       }
     }
     if (document.readyState === 'loading') {
