@@ -1122,49 +1122,12 @@ body[data-page-layout='about'] .post > .post-header,
 }
 
 // =============================================================
-// Strict bottom-align between profile column and hero action row.
-// Switch the about-page <article> to a flex row on desktop:
-// the floated profile column becomes a flex item, the content column
-// stretches to the same height, and .hero-actions is pushed to the bottom.
+// Bottom-align attempt: REVERTED. Float-based al-folio layout doesn't play well
+// with cross-column flex; adding text on the right side of the hero instead.
 // =============================================================
 @media (min-width: 768px) {
-  .post > article:has(> .profile) {
-    display: flex !important;
-    flex-direction: row-reverse;
-    align-items: stretch;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-
-  .post > article > .profile.float-left,
-  .post > article > .profile.float-right {
-    float: none !important;
-    flex: 0 0 200px;
-    max-width: 200px;
-    margin: 0 !important;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .post > article:has(> .profile) > .clearfix {
-    flex: 1 1 auto;
-    display: flex !important;
-    flex-direction: column;
-    min-height: 0 !important;
-
-    .hero-actions {
-      margin-top: auto;
-      padding-top: 0.6rem;
-    }
-  }
-
-  .post > article:has(> .profile) > h2,
-  .post > article:has(> .profile) > .news,
-  .post > article:has(> .profile) > .publications,
-  .post > article:has(> .profile) > .exp-row,
-  .post > article:has(> .profile) > ul,
-  .post > article:has(> .profile) > p {
-    flex: 0 0 100%;
-    width: 100%;
+  // Light tweak only: ensure the action row sits a bit below the bio paragraph.
+  .hero-actions {
+    margin-top: 1.2rem;
   }
 }
