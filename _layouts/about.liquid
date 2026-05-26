@@ -77,3 +77,32 @@ layout: default
     {% endif %}
   </article>
 </div>
+
+<script>
+  // Align the bottom of the hero action row with the bottom of the profile column.
+  (function alignHeroActionsToProfile() {
+    function run() {
+      if (window.innerWidth < 768) return; // mobile: stack naturally
+      var profile = document.querySelector('.post > article > .profile');
+      var clearfix = document.querySelector('.post > article > .clearfix');
+      var actions = clearfix && clearfix.querySelector('.hero-actions');
+      if (!profile || !actions) return;
+      // Reset previous adjustment so re-runs measure fresh.
+      actions.style.marginTop = '';
+      var profileBottom = profile.getBoundingClientRect().bottom;
+      var actionsBottom = actions.getBoundingClientRect().bottom;
+      var diff = profileBottom - actionsBottom;
+      if (diff > 4) {
+        // Push the action row down so its bottom matches the profile column bottom.
+        actions.style.marginTop = (parseFloat(getComputedStyle(actions).marginTop) || 0) + diff + 'px';
+      }
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', run);
+    } else {
+      run();
+    }
+    window.addEventListener('load', run);
+    window.addEventListener('resize', run);
+  })();
+</script>
