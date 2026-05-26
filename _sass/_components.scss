@@ -1087,3 +1087,27 @@ html[data-theme='dark'] .visitor-map .visitor-map-note {
 html[data-theme='dark'] .page-footer-note {
   color: rgba(255, 255, 255, 0.6);
 }
+
+// =============================================================
+// Final pass: align hero action row with the bottom of the profile column.
+// Trick: give the content column a min-height matching the avatar+cards block,
+// and push hero-actions to the bottom with margin-top: auto via flex.
+// =============================================================
+.post > article > .clearfix {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+
+  .hero-actions {
+    margin-top: auto;
+    padding-top: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  // Match the right-side content block to the height of the floated profile column.
+  // Profile col has avatar (~150px) + 2 cards (~80px each + 10px gap) ≈ ~330px.
+  .post > article > .clearfix {
+    min-height: 320px;
+  }
+}
