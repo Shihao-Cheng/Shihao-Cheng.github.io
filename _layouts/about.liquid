@@ -2,17 +2,11 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+  {% comment %}
+  The default about-page header (auto title + subtitle) is hidden in favor of a custom hero
+  that lives inside the markdown content (h1 with .hero-name etc.). Keep an empty header
+  to preserve any layout offsets from the parent default layout.
+  {% endcomment %}
 
   <article>
     {% if page.profile %}

@@ -1111,3 +1111,12 @@ html[data-theme='dark'] .page-footer-note {
     min-height: 320px;
   }
 }
+
+// =============================================================
+// Hide auto-generated "Shihao Cheng" title and tagline at the top of the about page;
+// the proper hero (H1 with markup) lives inside the markdown content.
+// =============================================================
+body[data-page-layout='about'] .post > .post-header,
+.layout-about .post > .post-header {
+  display: none;
+}
