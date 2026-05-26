@@ -70,6 +70,6 @@ I am actively seeking **Ph.D. positions for Fall 2027**. Please feel free to rea
   </a>
   <a class="hero-btn hero-btn-visitors" href="https://visitorbadge.io/status?path=https%3A%2F%2Fshihao-cheng.github.io%2F" target="_blank" rel="noopener">
     <span class="hero-btn-visitors-label">VISITORS</span>
-    <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fshihao-cheng.github.io%2F&countColor=%23ffffff&labelColor=%231772d0&label=&style=flat" alt="visitor count" />
+    <img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fshihao-cheng.github.io%2F&countColor=%23ffffff&labelColor=%231772d0&label=%20&style=flat" alt="visitors today / total" />
   </a>
 </div>
