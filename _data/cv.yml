@@ -1,6 +1,6 @@
 cv:
   name: Shihao Cheng
-  label: M.S. Student, Wuhan University
+  label: M.S., Wuhan University
   email: shihaocheng@whu.edu.cn
   phone: "+86 19819662573"
   url: https://github.com/Shihao-Cheng
@@ -24,7 +24,7 @@ cv:
         location: Wuhan, Hubei, China
         url: https://www.whu.edu.cn/
         area: Communication and Information Systems
-        studyType: M.S. Student
+        studyType: M.S.
         start_date: 2024-09
         end_date: 2027-06
         score: ""
