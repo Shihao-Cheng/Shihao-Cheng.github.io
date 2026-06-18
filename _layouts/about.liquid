@@ -3,9 +3,9 @@ layout: default
 ---
 <div class="post">
   {% comment %}
-  The default about-page header (auto title + subtitle) is hidden in favor of a custom hero
-  that lives inside the markdown content (h1 with .hero-name etc.). Keep an empty header
-  to preserve any layout offsets from the parent default layout.
+    The default about-page header (auto title + subtitle) is hidden in favor of a custom hero
+    that lives inside the markdown content (h1 with .hero-name etc.). Keep an empty header
+    to preserve any layout offsets from the parent default layout.
   {% endcomment %}
 
   <article>
@@ -97,11 +97,11 @@ layout: default
       if (diff > 2) {
         // Profile is taller: push actions down
         var current = parseFloat(getComputedStyle(actions).marginTop) || 0;
-        actions.style.marginTop = (current + diff) + 'px';
+        actions.style.marginTop = current + diff + 'px';
       } else if (diff < -2) {
         // Actions row is taller: push profile down
         var currentMb = parseFloat(getComputedStyle(profile).marginBottom) || 0;
-        profile.style.marginBottom = (currentMb + (-diff)) + 'px';
+        profile.style.marginBottom = currentMb + -diff + 'px';
       }
     }
     if (document.readyState === 'loading') {

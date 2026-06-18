@@ -605,7 +605,7 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-html[data-theme='dark'] .exp-row .exp-meta {
+html[data-theme="dark"] .exp-row .exp-meta {
   color: rgba(255, 255, 255, 0.55);
 }
 
@@ -733,9 +733,20 @@ html[data-theme='dark'] .exp-row .exp-meta {
         padding: 0.4rem 0.6rem;
         margin-top: 0.4rem;
 
-        .hero-card-label { font-size: 0.58rem; letter-spacing: 0.1em; margin-bottom: 0.12rem; }
-        .hero-card-title { font-size: 0.78rem; line-height: 1.2; margin-bottom: 0.12rem; }
-        .hero-card-body  { font-size: 0.66rem; line-height: 1.35; }
+        .hero-card-label {
+          font-size: 0.58rem;
+          letter-spacing: 0.1em;
+          margin-bottom: 0.12rem;
+        }
+        .hero-card-title {
+          font-size: 0.78rem;
+          line-height: 1.2;
+          margin-bottom: 0.12rem;
+        }
+        .hero-card-body {
+          font-size: 0.66rem;
+          line-height: 1.35;
+        }
       }
     }
   }
@@ -793,10 +804,10 @@ html[data-theme='dark'] .exp-row .exp-meta {
 // Kebii-style theme override — replace pink accents with blue/orange
 // (https://kebii.github.io/, link #1772d0, hover #f09228, highlight #ffffd0)
 // =============================================================
-$kebii-link:       #1772d0;
-$kebii-hover:      #f09228;
-$kebii-highlight:  #ffffd0;
-$kebii-text:       #222;
+$kebii-link: #1772d0;
+$kebii-hover: #f09228;
+$kebii-highlight: #ffffd0;
+$kebii-text: #222;
 
 // Global links
 .post,
@@ -817,8 +828,12 @@ $kebii-text:       #222;
 }
 
 // Hero name
-.hero-name { color: $kebii-link !important; }
-.hero-zh   { color: $kebii-link !important; }
+.hero-name {
+  color: $kebii-link !important;
+}
+.hero-zh {
+  color: $kebii-link !important;
+}
 
 // Hero tagline (top monospace line)
 .post .post-header .desc .hero-tagline {
@@ -831,8 +846,12 @@ $kebii-text:       #222;
   background: rgba(23, 114, 208, 0.05) !important;
   border: 1px solid rgba(23, 114, 208, 0.18) !important;
 
-  .hero-card-label { color: $kebii-link !important; }
-  .hero-card-body a { color: $kebii-link !important; }
+  .hero-card-label {
+    color: $kebii-link !important;
+  }
+  .hero-card-body a {
+    color: $kebii-link !important;
+  }
 }
 
 // Action buttons — primary (Publications) blue
@@ -865,7 +884,9 @@ $kebii-text:       #222;
   &:hover {
     border-color: $kebii-hover !important;
     color: $kebii-hover !important;
-    .hero-btn-visitors-label { background: $kebii-hover !important; }
+    .hero-btn-visitors-label {
+      background: $kebii-hover !important;
+    }
   }
 }
 
@@ -890,7 +911,10 @@ $kebii-text:       #222;
       background-color: rgba(23, 114, 208, 0.12) !important;
       color: $kebii-link !important;
 
-      a, div { color: $kebii-link !important; }
+      a,
+      div {
+        color: $kebii-link !important;
+      }
     }
   }
 
@@ -915,10 +939,14 @@ $kebii-text:       #222;
   .exp-org a {
     color: $kebii-text;
 
-    &:hover { color: $kebii-hover !important; }
+    &:hover {
+      color: $kebii-hover !important;
+    }
   }
 
-  .exp-role strong { color: $kebii-link !important; }
+  .exp-role strong {
+    color: $kebii-link !important;
+  }
 }
 
 // Awards
@@ -926,8 +954,13 @@ $kebii-text:       #222;
   li {
     border-bottom: 1px dashed rgba(23, 114, 208, 0.18) !important;
 
-    .awards-year { color: $kebii-link !important; }
-    strong { color: $kebii-text !important; font-weight: 700; }
+    .awards-year {
+      color: $kebii-link !important;
+    }
+    strong {
+      color: $kebii-text !important;
+      font-weight: 700;
+    }
   }
 }
 
@@ -952,7 +985,9 @@ $kebii-text:       #222;
     box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.18s ease, transform 0.18s ease;
+    transition:
+      opacity 0.18s ease,
+      transform 0.18s ease;
     z-index: 50;
 
     img {
@@ -963,7 +998,7 @@ $kebii-text:       #222;
     }
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       top: 100%;
       left: 50%;
@@ -1061,7 +1096,7 @@ $kebii-text:       #222;
   }
 }
 
-html[data-theme='dark'] .visitor-map .visitor-map-note {
+html[data-theme="dark"] .visitor-map .visitor-map-note {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -1084,7 +1119,7 @@ html[data-theme='dark'] .visitor-map .visitor-map-note {
   }
 }
 
-html[data-theme='dark'] .page-footer-note {
+html[data-theme="dark"] .page-footer-note {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -1116,7 +1151,7 @@ html[data-theme='dark'] .page-footer-note {
 // Hide auto-generated "Shihao Cheng" title and tagline at the top of the about page;
 // the proper hero (H1 with markup) lives inside the markdown content.
 // =============================================================
-body[data-page-layout='about'] .post > .post-header,
+body[data-page-layout="about"] .post > .post-header,
 .layout-about .post > .post-header {
   display: none;
 }
