@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Unison
-description: Harmonizing Motion, Speech, and Sound for Human-Centric Audio-Video Generation (ECCV 2026, Under Review)
+description: Harmonizing Motion, Speech, and Sound for Human-Centric Audio-Video Generation (ECCV 2026)
 img: assets/img/publication_preview/unison.png
 importance: 1
 category: research
@@ -16,4 +16,4 @@ Existing audio-video generators struggle with two long-standing problems:
 
 Unison resolves both via dedicated modality-aware tokenization and a harmonization objective, producing temporally aligned, semantically consistent multi-modal outputs.
 
-> First Author. Submitted to **ECCV 2026** (Under Review).
+> First Author. **ECCV 2026**.

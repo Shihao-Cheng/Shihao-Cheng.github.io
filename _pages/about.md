@@ -10,14 +10,13 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <div class="hero-card">
-      <div class="hero-card-label">NOW</div>
-      <div class="hero-card-title">Research Intern @ Tencent Hunyuan</div>
-      <div class="hero-card-body">Streaming joint audio-video generation.</div>
-    </div>
-    <div class="hero-card">
-      <div class="hero-card-label">OPEN TO</div>
-      <div class="hero-card-title">Ph.D. Fall 2027</div>
-      <div class="hero-card-body">Multimodal generation, agentic systems, real-time generative agents. <a href="mailto:shihaocheng@whu.edu.cn">shihaocheng@whu.edu.cn</a></div>
+      <div class="hero-card-label">PROJECTS</div>
+      <div class="hero-card-title">Remotely Operated Vehicle (ROV)</div>
+      <div class="hero-card-body">
+        <strong>2022</strong> · Physical Prototyping & Sim-to-Real Design<br>
+        Led end-to-end hardware-software co-design achieving 100% 3D-printed fabrication and comprehensive hull simulation. Deployed real-time YOLO on Raspberry Pi for low-latency visual awareness.
+        <br><a href="/projects/" style="font-size:0.85em;margin-top:4px;display:inline-block;">View Details →</a>
+      </div>
     </div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -43,7 +42,7 @@ Hi! I am Shihao Cheng (程世豪), an M.S. student at [Wuhan University](https:/
 
 Currently, I am a Research Intern at [Tencent Hunyuan](https://hunyuan.tencent.com/), focusing on **streaming joint audio-video generation**. My research focuses on multimodal generation and agentic systems, with a long-term interest in building real-time multimodal generative agents that produce coherent, controllable, and interactive content in response to evolving user intent.
 
-My work has been published in or submitted to top-tier venues including **CVPR (Highlight)**, **ECCV**, and **T-CSVT**.
+My work has been published in top-tier venues including **CVPR (Highlight)**, **ECCV**, and **T-CSVT**.
 
 I am actively seeking **Ph.D. positions for Fall 2027**. Please feel free to reach out for potential collaborations or opportunities!
 

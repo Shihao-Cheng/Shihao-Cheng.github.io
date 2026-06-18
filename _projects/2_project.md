@@ -1,7 +1,7 @@
 ---
 layout: page
 title: InteractiveAvatar
-description: Real-Time Streaming Video Generation for Consistent and Intent-Aware Avatars (ECCV 2026, Under Review)
+description: Real-Time Streaming Video Generation for Consistent and Intent-Aware Avatars (ECCV 2026)
 img: assets/img/publication_preview/interactive_avatar.png
 importance: 2
 category: research
@@ -16,4 +16,4 @@ The two bottlenecks it tackles:
 
 We design a **long-short term token memory** that anchors identity, scene, and intent across arbitrary horizons, enabling stable streaming generation.
 
-> Submitted to **ECCV 2026** (Under Review).
+> **ECCV 2026**.

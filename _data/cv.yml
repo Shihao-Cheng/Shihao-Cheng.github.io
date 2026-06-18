@@ -5,7 +5,7 @@ cv:
   phone: "+86 19819662573"
   url: https://github.com/Shihao-Cheng
   image: ""
-  summary: M.S. student at LIESMARS, Wuhan University. Research interests focus on multimodal understanding and generation, with works on audio-video joint generation, streaming video world models, and dark-video understanding. Published or submitted at CVPR (Highlight), ECCV, and T-CSVT.
+  summary: M.S. student at LIESMARS, Wuhan University. Research interests focus on multimodal understanding and generation, with works on audio-video joint generation, streaming video world models, and dark-video understanding. Published at CVPR (Highlight), ECCV, and T-CSVT.
 
   social_networks:
     - network: GitHub
@@ -72,14 +72,14 @@ cv:
       - title: "Unison: Harmonizing Motion, Speech, and Sound for Human-Centric Audio-Video Generation"
         authors:
           - Shihao Cheng (First Author)
-        publisher: ECCV 2026 (Under Review)
+        publisher: ECCV 2026
         releaseDate: 2026
         summary: "Resolved speech-SFX interference and motion-audio desynchronization in audio-video generation."
 
       - title: "InteractiveAvatar: Real-Time Streaming Video Generation for Consistent and Intent-Aware Avatars"
         authors:
           - Shihao Cheng
-        publisher: ECCV 2026 (Under Review)
+        publisher: ECCV 2026
         releaseDate: 2026
         summary: "Resolved understanding interaction and long-term semantic drift in infinite-length video generation."
 
