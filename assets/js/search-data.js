@@ -399,17 +399,20 @@ ninja.data = [{
           section: "News",},{id: "news-geommagent-was-accepted-by-cvpr-2026-as-a-highlight",
           title: '🎉 GeoMMAgent was accepted by CVPR 2026 as a Highlight!',
           description: "",
+          section: "News",},{id: "news-unison-and-interactiveavatar-were-accepted-by-eccv-2026",
+          title: '🎉 Unison and InteractiveAvatar were accepted by ECCV 2026!',
+          description: "",
           section: "News",},{id: "news-started-as-a-research-intern-at-tencent-hunyuan-working-on-agentic-streaming-video-generation-and-world-models",
           title: '🎬 Started as a Research Intern at Tencent Hunyuan, working on agentic streaming...',
           description: "",
           section: "News",},{id: "projects-unison",
           title: 'Unison',
-          description: "Harmonizing Motion, Speech, and Sound for Human-Centric Audio-Video Generation (ECCV 2026, Under Review)",
+          description: "Harmonizing Motion, Speech, and Sound for Human-Centric Audio-Video Generation (ECCV 2026)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-interactiveavatar",
           title: 'InteractiveAvatar',
-          description: "Real-Time Streaming Video Generation for Consistent and Intent-Aware Avatars (ECCV 2026, Under Review)",
+          description: "Real-Time Streaming Video Generation for Consistent and Intent-Aware Avatars (ECCV 2026)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-geommbench-geommagent",
@@ -427,6 +430,11 @@ ninja.data = [{
           description: "Streaming audio-visual generation with semantic-temporal alignment via Hierarchical World State Memory.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
+            },},{id: "projects-remotely-operated-vehicle-rov",
+          title: 'Remotely Operated Vehicle (ROV)',
+          description: "Physical Prototyping &amp; Sim-to-Real Design for Embodied Robotic Systems",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/rov/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
