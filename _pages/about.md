@@ -11,12 +11,7 @@ profile:
   more_info: >
     <div class="hero-card">
       <div class="hero-card-label">PROJECTS</div>
-      <div class="hero-card-title">Remotely Operated Vehicle (ROV)</div>
-      <div class="hero-card-body">
-        <strong>2022</strong> · Physical Prototyping & Sim-to-Real Design<br>
-        Led end-to-end hardware-software co-design achieving 100% 3D-printed fabrication and comprehensive hull simulation. Deployed real-time YOLO on Raspberry Pi for low-latency visual awareness.
-        <br><a href="/projects/" style="font-size:0.85em;margin-top:4px;display:inline-block;">View Details →</a>
-      </div>
+      <div class="hero-card-title"><a href="/projects/" style="color:inherit;text-decoration:none;">View My Projects →</a></div>
     </div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
