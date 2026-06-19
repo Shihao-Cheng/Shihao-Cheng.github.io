@@ -7,13 +7,13 @@ nav_order: 3
 ---
 
 <div class="boat-project">
+  <div class="boat-meta">
+    <span class="boat-date">2022</span>
+  </div>
+
   <div class="boat-card">
     <div class="boat-card-header">
       <h2 class="boat-title">Physical Embodiment in Embodied AI</h2>
-    </div>
-
-    <div class="boat-meta">
-      <span class="boat-date">2022</span>
     </div>
 
     <div class="boat-desc">
@@ -60,14 +60,12 @@ nav_order: 3
   }
 
   .boat-project {
-    display: flex;
-    justify-content: center;
+    max-width: 760px;
+    margin: 1.5rem auto;
   }
 
   .boat-card {
     width: 100%;
-    max-width: 760px;
-    margin: 1.5rem auto;
     padding: 1.25rem 1.25rem 1.5rem;
     border: 1px solid var(--global-divider-color, #e0e0e0);
     border-radius: 14px;
@@ -89,7 +87,7 @@ nav_order: 3
     border-top: 1px solid var(--global-divider-color, #e0e0e0);
     text-align: right;
     padding-top: 0.6rem;
-    margin: 0.5rem 0 1rem;
+    margin: 0 0 0.8rem;
   }
 
   .boat-date {
