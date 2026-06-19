@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎬 Started as a Research Intern at Tencent Hunyuan, working on agentic streaming video generation and world models.
+🎬 Started as a Research Intern at **Tencent Hunyuan**, working on agentic streaming video generation and world models.
