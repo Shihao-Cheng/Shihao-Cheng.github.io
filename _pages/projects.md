@@ -2,7 +2,6 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selected project.
 nav: true
 nav_order: 3
 ---
@@ -52,6 +51,14 @@ nav_order: 3
 </div>
 
 <style>
+  .post-title {
+    text-transform: capitalize;
+  }
+
+  .post-description {
+    display: none;
+  }
+
   .boat-project {
     display: flex;
     justify-content: center;
@@ -81,15 +88,15 @@ nav_order: 3
   .boat-meta {
     border-top: 1px solid var(--global-divider-color, #e0e0e0);
     text-align: right;
-    padding-top: 0.3rem;
-    margin: 0 0 1rem;
+    padding-top: 0.6rem;
+    margin: 0.5rem 0 1rem;
   }
 
   .boat-date {
-    font-family: monospace;
-    font-size: 0.85rem;
+    font-size: 2rem;
     font-weight: 700;
-    color: #1772d0;
+    line-height: 1;
+    color: #8a8a8a;
   }
 
   .boat-desc {
