@@ -626,7 +626,17 @@ ul.task-list input[type="checkbox"] {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  margin: 1.1rem 0 1.4rem;
+  margin: 0.6rem -0.8rem 0.9rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 10px;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+
+  &:hover {
+    background-color: rgba(128, 128, 128, 0.12);
+    transform: translateX(6px);
+  }
 
   .exp-logo {
     flex: 0 0 56px;
@@ -690,13 +700,23 @@ html[data-theme="dark"] .exp-row .exp-meta {
   margin: 0.5rem 0 1.5rem;
 
   li {
-    padding: 0.35rem 0;
+    padding: 0.4rem 0.8rem;
+    margin: 0 -0.8rem;
+    border-radius: 8px;
     font-size: 0.94rem;
     line-height: 1.55;
     border-bottom: 1px dashed rgba(217, 88, 138, 0.15);
+    transition:
+      background-color 0.2s ease,
+      transform 0.2s ease;
 
     &:last-child {
       border-bottom: none;
+    }
+
+    &:hover {
+      background-color: rgba(128, 128, 128, 0.12);
+      transform: translateX(6px);
     }
 
     .awards-year {
