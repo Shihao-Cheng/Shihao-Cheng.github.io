@@ -16,33 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "dropdown-cv",
-              title: "cv",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/cv/";
-              },
-            },{id: "dropdown-projects",
+        },{id: "dropdown-projects",
               title: "projects",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/projects/";
-              },
-            },{id: "dropdown-news",
-              title: "news",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/news/";
-              },
-            },{id: "dropdown-repositories",
-              title: "repositories",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/repositories/";
               },
             },{id: "post-a-post-with-plotly-js",
         
@@ -390,8 +369,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-m-s-studies-at-liesmars-wuhan-university-advised-by-prof-zhigang-tu",
-          title: '🎓 Started M.S. studies at LIESMARS, Wuhan University, advised by Prof. Zhigang Tu....',
+            },},{id: "news-started-m-s-studies-at-wuhan-university-advised-by-prof-zhigang-tu",
+          title: '🎓 Started M.S. studies at Wuhan University, advised by Prof. Zhigang Tu.',
           description: "",
           section: "News",},{id: "news-owlsight-was-accepted-by-ieee-t-csvt-if-11-1",
           title: '🎉 OwlSight was accepted by IEEE T-CSVT (IF 11.1).',
