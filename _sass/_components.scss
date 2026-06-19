@@ -296,6 +296,13 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// About-page section headings (News, Selected Publications, Experience, ...) — bolder + smaller
+.post > article > h2 {
+  clear: both;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 // Smaller, tighter contact lines under the profile picture
 .profile {
   .more-info {

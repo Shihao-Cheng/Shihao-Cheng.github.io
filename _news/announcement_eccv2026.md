@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 **Unison** and **InteractiveAvatar** were accepted by **ECCV 2026**!
+🎉 Unison and InteractiveAvatar were accepted by ECCV 2026!
