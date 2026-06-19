@@ -8,7 +8,7 @@ nav_order: 3
 
 <div class="boat-project">
   <div class="boat-meta">
-    <span class="boat-date">2022</span>
+    <h2 class="boat-date">2022</h2>
   </div>
 
   <div class="boat-card">
@@ -35,16 +35,16 @@ nav_order: 3
       loop
       playsinline
       preload="metadata"
-      poster="{{ '/assets/img/xzb.jpg' | relative_url }}"
+      poster="{{ '/assets/img/xzb.png' | relative_url }}"
     >
       <source src="{{ '/assets/video/xzb.mp4' | relative_url }}" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
 
     <div class="boat-gallery">
-      <img src="{{ '/assets/img/xzb.jpg' | relative_url }}" alt="Boat photo 1" loading="lazy" />
+      <img src="{{ '/assets/img/xzb3.png' | relative_url }}" alt="Boat photo 1" loading="lazy" />
       <img src="{{ '/assets/img/xzb2.png' | relative_url }}" alt="Boat photo 2" loading="lazy" />
-      <img src="{{ '/assets/img/xzb3.png' | relative_url }}" alt="Boat photo 3" loading="lazy" />
+      <img src="{{ '/assets/img/xzb.png' | relative_url }}" alt="Boat photo 3" loading="lazy" />
     </div>
 
   </div>
@@ -91,8 +91,7 @@ nav_order: 3
   }
 
   .boat-date {
-    font-size: 2rem;
-    font-weight: 700;
+    margin: 0;
     line-height: 1;
     color: #8a8a8a;
   }

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 GeoMMAgent was accepted by CVPR 2026 as a Highlight!
+🎉 [**GeoMMAgent**](https://geo-mm-agi.github.io) was accepted by CVPR 2026 as a **Highlight**!
