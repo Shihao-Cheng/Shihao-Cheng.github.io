@@ -262,21 +262,29 @@ ul.task-list input[type="checkbox"] {
 
 // News — pink pill date + highlighted paper names
 .news {
+  th,
+  td {
+    padding-top: 0.18rem;
+    padding-bottom: 0.18rem;
+    vertical-align: middle;
+  }
+
   .news-date {
     display: inline-block;
-    padding: 0.18em 0.7em;
+    padding: 0.12em 0.6em;
     border-radius: 999px;
     background-color: #f8c8d5;
     color: #b03a64;
     font-family: monospace;
-    font-size: 0.78rem;
+    font-size: 0.72rem;
     font-weight: 700;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.01em;
     white-space: nowrap;
   }
 
   td.news-content {
-    line-height: 1.7;
+    line-height: 1.4;
+    font-size: 0.92rem;
     padding-left: 0.6rem;
 
     em,
