@@ -327,8 +327,17 @@ ul.task-list input[type="checkbox"] {
     padding-left: 0;
 
     > li {
-      padding: 1.2rem 0;
+      margin: 0 -1rem;
+      padding: 1.2rem 1rem;
       border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+      border-radius: 12px;
+      transition: background-color 0.2s ease, box-shadow 0.2s ease;
+
+      &:hover {
+        background-color: rgba(23, 114, 208, 0.05);
+        box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+        border-bottom-color: transparent;
+      }
 
       &:last-child {
         border-bottom: none;
@@ -641,13 +650,13 @@ html[data-theme="dark"] .exp-row .exp-meta {
 
     .awards-year {
       display: inline-block;
-      min-width: 5.5em;
+      min-width: 2.5em;
       font-family: monospace;
       font-size: 0.85rem;
       letter-spacing: 0.04em;
       color: #d9588a;
       font-weight: 700;
-      margin-right: 0.6rem;
+      margin-right: 0.3rem;
     }
 
     strong {
