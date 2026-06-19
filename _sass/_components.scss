@@ -331,7 +331,9 @@ ul.task-list input[type="checkbox"] {
       padding: 1.2rem 1rem;
       border-bottom: 1px solid rgba(0, 0, 0, 0.06);
       border-radius: 12px;
-      transition: background-color 0.2s ease, box-shadow 0.2s ease;
+      transition:
+        background-color 0.2s ease,
+        box-shadow 0.2s ease;
 
       &:hover {
         background-color: rgba(23, 114, 208, 0.05);
