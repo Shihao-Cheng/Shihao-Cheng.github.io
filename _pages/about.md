@@ -44,9 +44,9 @@ Hi! I am Shihao Cheng (程世豪), an M.S. student at [Wuhan University](https:/
 
 Currently, I am a Research Intern at [Tencent Hunyuan](https://hunyuan.tencent.com/), focusing on **streaming joint audio-video generation**. My research focuses on multimodal generation and agentic systems, with a long-term interest in building real-time multimodal generative agents that produce coherent, controllable, and interactive content in response to evolving user intent.
 
-My work has been published in top-tier venues including **CVPR (Highlight)**, **ECCV**, and **T-CSVT**.
+My work has been published in top-tier venues including **CVPR 2026 (Highlight)**, **ECCV 2026**, and **T-CSVT**.
 
-I am actively seeking **Ph.D. positions for Fall 2027**. Please feel free to reach out for potential collaborations or opportunities!
+I am looking for **Ph.D. positions (Fall 2027)** and RA opportunities in multimodal AI. I welcome discussions about potential fit with your research group.
 
 <div class="hero-actions">
   <a class="hero-btn hero-btn-primary" href="/publications/">
