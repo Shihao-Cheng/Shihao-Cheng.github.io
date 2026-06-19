@@ -10,8 +10,15 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <div class="hero-card">
-      <div class="hero-card-label">PROJECTS</div>
-      <div class="hero-card-title"><a href="/projects/" style="color:inherit;text-decoration:none;">View My Projects →</a></div>
+      <div class="hero-card-label">NOW</div>
+      <div class="hero-card-title">Research Intern @ Tencent Hunyuan</div>
+      <div class="hero-card-body">Streaming joint audio-video generation.</div>
+    </div>
+    <div class="hero-card">
+      <div class="hero-card-label">OPEN TO</div>
+      <div class="hero-card-title">Ph.D. Fall 2027</div>
+      <div class="hero-card-body">Multimodal generation, agentic systems, real-time generative agents.</div>
+      <div class="hero-card-body"><a href="mailto:shihaocheng@whu.edu.cn">shihaocheng@whu.edu.cn</a></div>
     </div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
