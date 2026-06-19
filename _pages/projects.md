@@ -32,6 +32,7 @@ nav_order: 3
       <img src="{{ '/assets/img/xzb2.png' | relative_url }}" alt="Boat photo 2" loading="lazy" />
       <img src="{{ '/assets/img/xzb3.png' | relative_url }}" alt="Boat photo 3" loading="lazy" />
     </div>
+
   </div>
 </div>
 
