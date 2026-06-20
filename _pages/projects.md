@@ -23,7 +23,7 @@ nav_order: 3
         gap for embodied robotic systems.
       </p>
       <p>
-        <strong>Edge Perception:</strong> Deployed real-time YOLO on Raspberry Pi, enabling low-latency visual awareness for autonomous
+        <strong>Edge Perception:</strong> Deployed real-time YOLO object detection on NVIDIA Jetson Nano, enabling low-latency visual awareness for autonomous
         interaction.
       </p>
     </div>
