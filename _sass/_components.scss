@@ -1031,6 +1031,12 @@ $kebii-text: #222;
       color: #f5b400;
     }
 
+    // Compact pill for the star-count badge
+    &.repo-stars {
+      padding-left: 0.5rem !important;
+      padding-right: 0.5rem !important;
+    }
+
     // Hover → color inversion (filled blue, light text)
     &:hover {
       border-color: $kebii-link !important;
