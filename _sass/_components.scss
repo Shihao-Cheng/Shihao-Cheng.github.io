@@ -1022,12 +1022,24 @@ $kebii-text: #222;
   }
 
   .links a.btn {
-    color: $kebii-text !important;
+    border-color: $kebii-link !important;
+    color: $kebii-link !important;
+    background: transparent !important;
 
+    // Yellow star for the GitHub-stars badge
+    .fa-star {
+      color: #f5b400;
+    }
+
+    // Hover → color inversion (filled blue, light text)
     &:hover {
-      border-color: $kebii-hover !important;
-      color: $kebii-hover !important;
-      background: rgba(240, 146, 40, 0.08) !important;
+      border-color: $kebii-link !important;
+      color: #fff !important;
+      background: $kebii-link !important;
+
+      .fa-star {
+        color: #ffd54a;
+      }
     }
   }
 }
