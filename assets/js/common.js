@@ -57,4 +57,46 @@ $(document).ready(function () {
   $('[data-toggle="popover"]').popover({
     trigger: "hover",
   });
+
+  // fetch live GitHub star counts for publication "code" badges
+  const STAR_CACHE_TTL = 6 * 60 * 60 * 1000; // 6 hours
+  document.querySelectorAll(".repo-stars[data-repo]").forEach(function (el) {
+    const repo = el.getAttribute("data-repo");
+    const countEl = el.querySelector(".repo-stars-count");
+    if (!repo || !countEl) return;
+
+    const cacheKey = "gh-stars:" + repo;
+    let cached = null;
+    try {
+      cached = JSON.parse(localStorage.getItem(cacheKey));
+    } catch (e) {
+      cached = null;
+    }
+    if (cached && cached.ts && Date.now() - cached.ts < STAR_CACHE_TTL) {
+      countEl.textContent = cached.stars;
+      return;
+    }
+
+    fetch("https://api.github.com/repos/" + repo)
+      .then(function (response) {
+        return response.ok ? response.json() : null;
+      })
+      .then(function (data) {
+        if (data && typeof data.stargazers_count === "number") {
+          countEl.textContent = data.stargazers_count;
+          try {
+            localStorage.setItem(cacheKey, JSON.stringify({ stars: data.stargazers_count, ts: Date.now() }));
+          } catch (e) {
+            /* ignore storage errors */
+          }
+        } else if (cached && typeof cached.stars !== "undefined") {
+          countEl.textContent = cached.stars;
+        }
+      })
+      .catch(function () {
+        if (cached && typeof cached.stars !== "undefined") {
+          countEl.textContent = cached.stars;
+        }
+      });
+  });
 });
