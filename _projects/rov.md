@@ -16,7 +16,7 @@ Led the complete design-to-deployment pipeline: CAD modeling → 3D printing →
 
 ### Edge Perception
 
-Deployed real-time **YOLO object detection on Raspberry Pi**, enabling low-latency visual awareness for autonomous underwater interaction.
+Deployed real-time **YOLO object detection on NVIDIA Jetson Nano**, enabling low-latency visual awareness for autonomous underwater interaction.
 
 <div class="row mt-4">
   <div class="col-sm-6">
