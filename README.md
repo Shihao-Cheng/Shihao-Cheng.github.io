@@ -1,6 +1,6 @@
 # Shihao Cheng — Academic Homepage
 
-Personal academic homepage of **Shihao Cheng (程世豪)** — M.S. student at LIESMARS, Wuhan University, working on multimodal understanding and generation, audio-video joint generation, and streaming video world models.
+Personal academic homepage of **Shihao Cheng (程世豪)** — M.S. student at Wuhan University, working on multimodal understanding and generation, audio-video joint generation, and streaming video world models.
 
 🌐 Live site: https://Shihao-Cheng.github.io/
 
