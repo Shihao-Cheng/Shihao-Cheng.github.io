@@ -186,3 +186,47 @@
 .citation-number {
   color: var(--global-theme-color);
 }
+
+/*******************************************************************************
+ * BibTeX ("Bib") code block — blue theme (light mode)
+ * Light blue background; red syntax tokens recolored to blue
+ * (dark red -> dark blue, bright red -> brand blue).
+ ******************************************************************************/
+html:not([data-theme="dark"]) {
+  .bibtex pre,
+  .bibtex .highlight,
+  .bibtex .highlight pre {
+    background-color: #eef4fc;
+  }
+
+  // Bright/light red (strings & values) -> brand (light) blue
+  .bibtex .highlight {
+    .s,
+    .s1,
+    .s2,
+    .sb,
+    .sc,
+    .sd,
+    .se,
+    .sh,
+    .si,
+    .sx {
+      color: #1772d0;
+    }
+
+    // Dark red (errors, exceptions, function/label names) -> dark blue
+    .err,
+    .gr,
+    .gt,
+    .ne,
+    .nf,
+    .nl,
+    .ss {
+      color: #00369f;
+    }
+
+    .err {
+      background-color: #dbe6f7;
+    }
+  }
+}
