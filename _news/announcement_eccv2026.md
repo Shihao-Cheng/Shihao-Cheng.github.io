@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 [**Unison**](https://arxiv.org/abs/2605.08729) and **InteractiveAvatar** were accepted by **ECCV 2026**!
+🎉 [**Unison**](https://arxiv.org/abs/2605.08729) and [**InteractiveAvatar**](https://arxiv.org/abs/2606.22905) were accepted by **ECCV 2026**!
