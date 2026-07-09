@@ -46,8 +46,6 @@ Currently, I am a Research Intern at [Tencent Hunyuan](https://hunyuan.tencent.c
 
 My work has been published in top-tier venues including **CVPR 2026 (Highlight)**, **ECCV 2026**, and **T-CSVT**.
 
-I am looking for **Ph.D. positions (Fall 2027)** and RA opportunities in multimodal AI. I welcome discussions about potential fit with your research group.
-
 <div class="hero-actions">
   <a class="hero-btn hero-btn-primary" href="/publications/">
     <i class="fa-solid fa-book-open"></i> Publications
